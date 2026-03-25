@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "ip-192-168-3-171",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus15.actions.githubusercontent.com/CEWZwoI1M64WKBGExMDZ3oe9VfpvnbR7R5JDONDB0WWVlCf7c1/",
+  "gitHubUrl": "https://github.com/Rath0ure/company-automation",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

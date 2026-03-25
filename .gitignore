@@ -1,8 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env*.local
 
 # Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+playwright-report/
+test-results/
+.cache/
+.auth/
+blob-report/
+
+# GitHub Actions self-hosted runner directories
+_diag/
+_work/
+bin/
+externals/
+
+# Other common ignored files
+*.log
+.DS_Store
