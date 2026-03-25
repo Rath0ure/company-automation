@@ -49,6 +49,9 @@ test.describe("Customer Dashboard", () => {
     //wait for 5 seconds
     await page.waitForTimeout(5000);
    
+    // Verify the success popup message
+    await expect(page.locator('text=Success Shipment created successfully')).toBeVisible();
+
     await context.close();
   });
 });

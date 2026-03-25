@@ -6,7 +6,7 @@ export default defineConfig({
   workers: 3,
   reporter: [["html"], ["list"]],
   use: {
-    headless: true,
+    headless: false,
     screenshot: "only-on-failure",
     video: "retain-on-failure",
   },
