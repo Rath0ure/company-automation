@@ -14,7 +14,7 @@ import {
 test.describe("Customer Dashboard", () => {
   test("should ship the product successfully to shadowfax", async () => {
     const browser = await chromium.launch({
-      headless: false,
+      headless: true,
     });
 
     const context = await browser.newContext({
